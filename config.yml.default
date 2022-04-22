@@ -1,8 +1,8 @@
-token: "XXXXXXXXXXXXXXXXXXXXXXXX"         # Lichess OAuth2 Token.
+token: "lip_MBHBy3EXqxvezOOFoPrm"         # Lichess OAuth2 Token.
 
 engine:                                   # Engine settings.
   dir: "./engines"                        # Directory containing the engine.
-  name: "EngineName"                      # Binary name of the engine to use.
+  name: "stockfish"                      # Binary name of the engine to use.
   ponder: true                            # Think on opponent's time.
   opening_books:
     enabled: false                        # Activate opening books.
@@ -81,7 +81,7 @@ challenge:                                # Incoming challenges. (Commenting all
 matchmaking:
   initial_time: 60                        # Initial time for matchmaking mode.
   increment: 1                            # Increment time for matchmaking mode.
-  rated: true                             # Activate rated games in matchmaking mode.
+  rated: false                             # Activate rated games in matchmaking mode.
   timeout: 20                             # Time until a challenge is canceled. 
 # min_rating_diff: 0                      # Minimum rating distance to opponent. (Commenting allowed)
 # max_rating_diff: 300                    # Maximum rating distance to opponent. (Commenting allowed)
